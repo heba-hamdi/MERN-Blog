@@ -3,7 +3,7 @@ import { Button, Navbar, TextInput } from "flowbite-react";
 import { Link, useLocation } from "react-router-dom";
 import Home from "../pages/Home";
 import { AiOutlineSearch } from "react-icons/ai";
-
+import {FaMoon} from 'react-icons/fa'
 
 const Header = () => {
     const path=useLocation().pathname
@@ -25,6 +25,13 @@ const Header = () => {
         />
       </form>
       <Button className="lg:hidden" color="gray" pill><AiOutlineSearch/></Button>
+      <Button
+          className='w-12 h-10 inline'
+          color='gray'
+          pill
+        >
+         <FaMoon />
+        </Button>
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Navbar.Link as={'div'} active={path==="/"}>

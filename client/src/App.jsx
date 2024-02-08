@@ -7,6 +7,7 @@ import SignIn from './pages/Signin'
 import SignOut from './pages/SignOut'
 import Header from './components/Header'
 import Projects from './pages/Projects'
+import { DarkThemeToggle, Flowbite } from 'flowbite-react';
 
 const App = () => {
   return (
