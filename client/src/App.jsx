@@ -4,10 +4,10 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Dashboard from './pages/Dashboard'
 import SignIn from './pages/Signin'
-import SignUp from './pages/SignUp'
 import Header from './components/Header'
 import Projects from './pages/Projects'
 import { DarkThemeToggle, Flowbite } from 'flowbite-react';
+import SignUp from './pages/SignUp'
 
 const App = () => {
   return (
