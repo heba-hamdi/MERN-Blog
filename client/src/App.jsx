@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Dashboard from './pages/Dashboard'
 import SignIn from './pages/Signin'
-import SignOut from './pages/SignOut'
+import SignUp from './pages/SignUp'
 import Header from './components/Header'
 import Projects from './pages/Projects'
 import { DarkThemeToggle, Flowbite } from 'flowbite-react';
@@ -19,7 +19,7 @@ const App = () => {
       <Route path='/dashboard' element={<Dashboard/>}/>
       <Route path='/projects' element={<Projects/>}/>
       <Route path='/sign-in' element={<SignIn/>}/>
-      <Route path='/sign-out' element={<SignOut/>}/>
+      <Route path='/sign-up' element={<SignUp/>}/>
     </Routes>
     </BrowserRouter>
   )
